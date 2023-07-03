@@ -1,0 +1,13 @@
+.Link{
+    color: #B5B5B6;
+    text-decoration: none;
+    &:hover{
+        color: black;
+        transition: 1s all;
+    }
+}
+@media screen and (max-width: 540px) {
+    .list{
+        padding-left:5px;
+    }
+  }

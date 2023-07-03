@@ -1,0 +1,42 @@
+.button-default {
+    &:hover {
+        background-color: #AEAEAE;
+    }
+
+    &:focus {
+        background-color: #AEAEAE;
+    }
+}
+
+.primary-outlined {
+    &:focus {
+        background-color: #BFC9FE;
+    }
+}
+.primary-contained {
+    &:hover {
+        background-color: #0039CB;
+    }
+    &:focus {
+        background-color: #0039CB;
+    }
+}
+
+.primary-text {
+    &:focus {
+        background-color: #BFC9FE;
+    }
+}
+.secondary-contained{
+    &:focus{
+        background-color: #1C313A;
+    }
+}
+.error-contained{
+    &:hover{
+        background-color: #9A0007;
+    }
+    &:focus{
+        background-color: #9A0007;
+    }
+}
